@@ -4,7 +4,7 @@ var router = express.Router()
 const Game = require("../models/games")
 
 let words = [
-'pyrope', 'vecteur', 'roses', 'projet', 'nsutite', 'soupe', 'brocoli', 'biere', 'ragot', 'chat', 'design', 'libellule'
+'pyrope', 'vecteur', 'roses', 'projet', 'nsutite', 'soupe', 'brocoli', 'biere', 'ragot', 'chat', 'design', 'libellule', "Subtil", "Nuance", "Clair", "Savoir", "Poser", "Tact", "Sujet", "Juste", "Tenir", "Angle"
 ]
 
 router.get('/', (req, res)=>{
