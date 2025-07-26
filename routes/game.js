@@ -8,7 +8,7 @@ let words = [
  'brocoli', 'biere', 'ragot', 'chat', 'design', 'libellule',
   "Subtil", "Nuance", "Clair", "Savoir", "Poser", "Tact",
    "Sujet", "Juste", "Tenir", "Angle", "vignoble",
-   "moka", "moto", "schtroumpf", "verveine"
+   "moka", "moto", "schtroumpf", "verveine", "bravo", 'jambon','laser'
 ]
 
 router.get('/new', (req, res)=>{
